@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>This is my fourth post!</title>
-		<meta name="description" content="This is a post on My Blog about touchpoints and circling wagons.">
-		<link rel="alternate" href="/eleventy-base-blog/feed/feed.xml" type="application/atom+xml" title="Eleventy Base Blog v8">
-		<link rel="alternate" href="/eleventy-base-blog/feed/feed.json" type="application/json" title="Eleventy Base Blog v8">
+		<title>Cleaning Up My GitHub for a New Project</title>
+		<meta name="description" content="Writing about cleaning up my GitHub repos in anticipation of a fun new project.">
+		<link rel="alternate" href="/code-blog/feed/feed.xml" type="application/atom+xml" title="Steven&#39;s Coding Blog">
+		<link rel="alternate" href="/code-blog/feed/feed.json" type="application/json" title="Steven&#39;s Coding Blog">
 		
 		<style>/**
  * okaidia theme for JavaScript, CSS and HTML
@@ -452,39 +452,85 @@ h2 + .header-anchor {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/eleventy-base-blog/" class="home-link">Eleventy Base Blog v8</a>
+			<a href="/code-blog/" class="home-link">Steven&#39;s Coding Blog</a>
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="/eleventy-base-blog/">Home</a></li>
-					<li class="nav-item"><a href="/eleventy-base-blog/blog/">Archive</a></li>
-					<li class="nav-item"><a href="/eleventy-base-blog/about/">About Me</a></li>
+					<li class="nav-item"><a href="/code-blog/">Home</a></li>
+					<li class="nav-item"><a href="/code-blog/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/code-blog/about/">About Me</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<main id="skip">
 			
-<h1>This is my fourth post!</h1>
+<h1>Cleaning Up My GitHub for a New Project</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2018-09-30">30 September 2018</time></li>
-	<li><a href="/eleventy-base-blog/tags/second-tag/" class="post-tag">second tag</a></li>
+	<li><time datetime="2024-08-20">20 August 2024</time></li>
+	<li><a href="/code-blog/tags/github/" class="post-tag">github</a>, </li>
+	<li><a href="/code-blog/tags/cleanup/" class="post-tag">cleanup</a></li>
 </ul>
 
-<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-<p><picture><source type="image/avif" srcset="/eleventy-base-blog/img/IdthKOzqFA-350.avif 350w"><source type="image/webp" srcset="/eleventy-base-blog/img/IdthKOzqFA-350.webp 350w"><img alt="A possum parent and two possum kids hanging from the iconic red balloon" loading="lazy" decoding="async" src="/eleventy-base-blog/img/IdthKOzqFA-350.png" width="350" height="685"></picture></p>
-<h2 id="section-header" tabindex="-1">Section Header <a class="header-anchor" href="#section-header">#</a></h2>
-<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-
-<ul class="links-nextprev"><li>Previous: <a href="/eleventy-base-blog/blog/thirdpost/">This is my third post.</a></li>
+<p>I want to work on a new, exciting software project. But, whenever I try to get started I feel guilty about all the PRs, dependabot alerts, and old code I haven't addressed in my GitHub account. Seeing all of that pile up saps my motivation, but I'm sure I can take a week to get everything in order. My upcoming project is a clone of <a href="https://www.kingdomofloathing.com/">The Kingdom of Loathing</a> using <a href="https://spring.io/projects/spring-boot">SpringBoot</a> and <a href="https://htmx.org/">htmx</a>. Stay tuned for Game Design, Architectural Design, and more from my upcoming project!</p>
+<p>With that introduction out of the way, let's go though my existing non-archived projects and see what I'm going to have to do to get this all cleaned up.</p>
+<h2 id="backlog-puller" tabindex="-1"><a href="https://github.com/GTmmiller/backlog_puller">backlog_puller</a> <a class="header-anchor" href="#backlog-puller">#</a></h2>
+<p>This is a simple command-line utility for pulling game data from <a href="https://www.backloggery.com/">The Backloggery</a>. I originally created it to retrieve data for spreadsheets and amateur data science stuff and thought other people might find it useful too.</p>
+<p>I recently got an email from the German research institute <a href="https://www.fortiss.org/en/">fortiss</a> asking me about this package and I remembered that I left a few PRs hanging. The Backloggery recently had a <a href="https://www.patreon.com/posts/remake-launch-104736678">total redesign</a>, so I suspect I may have to retire this project entirely, which would really be the end of an era for me. This has been my most successful personal software project in terms of overall engagement and usage.</p>
+<h3 id="action-items" tabindex="-1">Action Items <a class="header-anchor" href="#action-items">#</a></h3>
+<ul>
+<li>Check if the redesign is compatible with the PR changes to update to Python 3</li>
+<li>Potentially EoL the project if it no longer works
+<ul>
+<li>Remove or mark as archived in PyPi</li>
+<li>find my pyPi credential</li>
 </ul>
+</li>
+</ul>
+<h2 id="saga-frontier-combo-simulator" tabindex="-1"><a href="https://github.com/GTmmiller/saga-frontier-combo-simulator">Saga Frontier Combo Simulator</a> <a class="header-anchor" href="#saga-frontier-combo-simulator">#</a></h2>
+<p>I don't like the original Saga Frontier, but the 2021 remaster was my game of the year when it came out. I enjoyed it so much that I created a simulator for the game's combo system. It even did some small numbers <a href="https://www.reddit.com/r/SaGa/comments/xmx7dj/saga_frontier_combo_tool/">in the SaGa subreddit</a>.</p>
+<p>I used full-strength Vue for this project. It was a good decision at the time, but looking at it now it feels like it was a little overkill. It doesn't call any apis and it's pretty much a simple one page tool. For now, I'll just update dependencies and make sure all the tests pass, but a rewrite using a lighter framework like <a href="https://alpinejs.dev/">alpine.js</a> would be a fun project.</p>
+<h3 id="action-items-1" tabindex="-1">Action Items <a class="header-anchor" href="#action-items-1">#</a></h3>
+<ul>
+<li>Update out of date dependencies</li>
+<li>Update node version to latest lts (v20)</li>
+<li>Ensure all tests pass and it works as expected</li>
+<li>Cut and deploy a new web release</li>
+</ul>
+<h2 id="plump" tabindex="-1"><a href="https://github.com/GTmmiller/plump">Plump</a> <a class="header-anchor" href="#plump">#</a></h2>
+<p>This distributed lock service was originally going to be part of a series of projects I did as a supplement to my grad school coursework. Turns out, map reduce is much easier to model than distributed locking! I wanted this to take 1 month, but three years, and two language changes later it was finally done. I want to keep this around as long as I can since I use it as a reference project for a lot of setup I do in Java projects like setting up Unit Testing, Checkstyle, and multiple modules.</p>
+<h3 id="action-items-2" tabindex="-1">Action Items <a class="header-anchor" href="#action-items-2">#</a></h3>
+<ul>
+<li>Turn on Dependabot warning</li>
+<li>Update any out of date dependencies</li>
+<li>Cut a new updated release if needed</li>
+</ul>
+<h2 id="brainf-inter" tabindex="-1"><a href="https://github.com/GTmmiller/brainf_inter">brainf-inter</a> <a class="header-anchor" href="#brainf-inter">#</a></h2>
+<p>An interpreter of the <a href="https://en.wikipedia.org/wiki/Brainfuck">Brainfuck langauge</a>. Though the name is a little crude, it's basically a simple language for representing a Turing machine.</p>
+<p>I've kept this project around because it's a fun blueprint for a javascript library that works on the browser and on Node at the same time. It's not very useful, but it's pretty lightweight and fun to keep around.</p>
+<h3 id="action-items-3" tabindex="-1">Action Items <a class="header-anchor" href="#action-items-3">#</a></h3>
+<ul>
+<li>Update dependencies</li>
+<li>make sure the latest lts verison of Node is called for</li>
+<li>check if this is still best practice for a package for the browser and nodejs</li>
+<li>Redeploy to npm</li>
+</ul>
+<h2 id="archiving" tabindex="-1">Archiving <a class="header-anchor" href="#archiving">#</a></h2>
+<p>I have a bunch of old projects that I don't want to maintain anymore, but I like to keep around for sentimental or other reasons.</p>
+<p><strong>hex-game</strong> - An incomplete implementation of the game <a href="https://en.wikipedia.org/wiki/Hex_(board_game)">Hex</a>. I might revisit this in Godot as a simple game exercise.</p>
+<p><strong>hde-twitter-like</strong> - A twitter clone I made for an internship that I quite enjoyed. Not going to update this one any time soon, but I have some great memories from that internship. Checkout the <a href="https://hennge.com/global/gip.html">Hennge global internship program</a> if you're interested in working and living in Tokyo for a bit.</p>
+<p><strong>pokego-evol-maximizer</strong> - This was supposed to calculate the amount of pokemon you can transfer to maximize the number of pokemon you could evolve from the candy resulting from the transfer. This never quite worked correctly, but it gave me lot of valuable experience with numpy.</p>
+<p><strong>bankinator</strong> - I made this application to sign into my bank account and pull information. The bank I wrote this for is now defunct and this was before the days of open banking apis. It doesn't work and I don't want to update it.</p>
+<h2 id="moving-forward" tabindex="-1">Moving Forward <a class="header-anchor" href="#moving-forward">#</a></h2>
+<p>I'm excited to get cleaning and to move on to my next project! Next post should be next week detailing how the clean up went and I should get some time to start writing up the intro to the new project.</p>
+<p>See you in the next post!</p>
+
 
 		</main>
 
 		<footer></footer>
 
-		<!-- This page `/eleventy-base-blog/blog/fourthpost/` was built on 2024-08-19T01:50:26.439Z -->
+		<!-- This page `/code-blog/blog/githubcleanup/` was built on 2024-08-21T02:42:58.651Z -->
 	</body>
 </html>

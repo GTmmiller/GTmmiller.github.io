@@ -1,95 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
-	<title>Eleventy Base Blog v8</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-	<link href="https://example.com/eleventy-base-blog/feed/feed.xml" rel="self"/>
-	<link href="https://example.com/eleventy-base-blog/"/>
-	<updated>2018-09-30T00:00:00Z</updated>
-	<id>https://example.com/</id>
+	<title>Steven&#39;s Coding Blog</title>
+	<subtitle>I&#39;m writing about my coding projects here. Interested in Java, Godot, and Game Design.</subtitle>
+	<link href="https://gtmmiller.github.io/code-blog/feed/feed.xml" rel="self"/>
+	<link href="https://gtmmiller.github.io/code-blog/"/>
+	<updated>2024-08-20T00:00:00Z</updated>
+	<id>https://gtmmiller.github.io</id>
 	<author>
-		<name>Your Name Here</name>
-		<email>youremailaddress@example.com</email>
+		<name>Steven Miller</name>
+		<email>steven.miller.msm@gmail.com</email>
 	</author>
 	
 	<entry>
-		<title>This is my fourth post!</title>
-		<link href="https://example.com/eleventy-base-blog/blog/fourthpost/"/>
-		<updated>2018-09-30T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/blog/fourthpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/eleventy-base-blog/img/IdthKOzqFA-350.avif 350w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/eleventy-base-blog/img/IdthKOzqFA-350.webp 350w&quot;&gt;&lt;img alt=&quot;A possum parent and two possum kids hanging from the iconic red balloon&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/eleventy-base-blog/img/IdthKOzqFA-350.png&quot; width=&quot;350&quot; height=&quot;685&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/eleventy-base-blog/blog/fourthpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my third post.</title>
-		<link href="https://example.com/eleventy-base-blog/blog/thirdpost/"/>
-		<updated>2018-08-24T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/blog/thirdpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;code&quot; tabindex=&quot;-1&quot;&gt;Code &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/eleventy-base-blog/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;styled-with-syntax&quot; tabindex=&quot;-1&quot;&gt;Styled (with Syntax) &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/eleventy-base-blog/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;unstyled&quot; tabindex=&quot;-1&quot;&gt;Unstyled &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/eleventy-base-blog/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log(&#39;Test&#39;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/eleventy-base-blog/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my second post with a much longer title.</title>
-		<link href="https://example.com/eleventy-base-blog/blog/secondpost/"/>
-		<updated>2018-07-04T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/blog/secondpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/eleventy-base-blog/blog/secondpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://example.com/eleventy-base-blog/blog/firstpost/&quot;&gt;First post&lt;/a&gt;
-&lt;a href=&quot;https://example.com/eleventy-base-blog/blog/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my first post.</title>
-		<link href="https://example.com/eleventy-base-blog/blog/firstpost/"/>
-		<updated>2018-05-01T00:00:00Z</updated>
-		<id>https://example.com/eleventy-base-blog/blog/firstpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/eleventy-base-blog/blog/firstpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-diff-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-diff-js&quot;&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted language-js&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token deleted-sign deleted language-js&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+		<title>Cleaning Up My GitHub for a New Project</title>
+		<link href="https://gtmmiller.github.io/code-blog/blog/githubcleanup/"/>
+		<updated>2024-08-20T00:00:00Z</updated>
+		<id>https://gtmmiller.github.io/code-blog/blog/githubcleanup/</id>
+		<content type="html">&lt;p&gt;I want to work on a new, exciting software project. But, whenever I try to get started I feel guilty about all the PRs, dependabot alerts, and old code I haven&#39;t addressed in my GitHub account. Seeing all of that pile up saps my motivation, but I&#39;m sure I can take a week to get everything in order. My upcoming project is a clone of &lt;a href=&quot;https://www.kingdomofloathing.com/&quot;&gt;The Kingdom of Loathing&lt;/a&gt; using &lt;a href=&quot;https://spring.io/projects/spring-boot&quot;&gt;SpringBoot&lt;/a&gt; and &lt;a href=&quot;https://htmx.org/&quot;&gt;htmx&lt;/a&gt;. Stay tuned for Game Design, Architectural Design, and more from my upcoming project!&lt;/p&gt;
+&lt;p&gt;With that introduction out of the way, let&#39;s go though my existing non-archived projects and see what I&#39;m going to have to do to get this all cleaned up.&lt;/p&gt;
+&lt;h2 id=&quot;backlog-puller&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/GTmmiller/backlog_puller&quot;&gt;backlog_puller&lt;/a&gt; &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is a simple command-line utility for pulling game data from &lt;a href=&quot;https://www.backloggery.com/&quot;&gt;The Backloggery&lt;/a&gt;. I originally created it to retrieve data for spreadsheets and amateur data science stuff and thought other people might find it useful too.&lt;/p&gt;
+&lt;p&gt;I recently got an email from the German research institute &lt;a href=&quot;https://www.fortiss.org/en/&quot;&gt;fortiss&lt;/a&gt; asking me about this package and I remembered that I left a few PRs hanging. The Backloggery recently had a &lt;a href=&quot;https://www.patreon.com/posts/remake-launch-104736678&quot;&gt;total redesign&lt;/a&gt;, so I suspect I may have to retire this project entirely, which would really be the end of an era for me. This has been my most successful personal software project in terms of overall engagement and usage.&lt;/p&gt;
+&lt;h3 id=&quot;action-items&quot; tabindex=&quot;-1&quot;&gt;Action Items &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Check if the redesign is compatible with the PR changes to update to Python 3&lt;/li&gt;
+&lt;li&gt;Potentially EoL the project if it no longer works
+&lt;ul&gt;
+&lt;li&gt;Remove or mark as archived in PyPi&lt;/li&gt;
+&lt;li&gt;find my pyPi credential&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;saga-frontier-combo-simulator&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/GTmmiller/saga-frontier-combo-simulator&quot;&gt;Saga Frontier Combo Simulator&lt;/a&gt; &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I don&#39;t like the original Saga Frontier, but the 2021 remaster was my game of the year when it came out. I enjoyed it so much that I created a simulator for the game&#39;s combo system. It even did some small numbers &lt;a href=&quot;https://www.reddit.com/r/SaGa/comments/xmx7dj/saga_frontier_combo_tool/&quot;&gt;in the SaGa subreddit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I used full-strength Vue for this project. It was a good decision at the time, but looking at it now it feels like it was a little overkill. It doesn&#39;t call any apis and it&#39;s pretty much a simple one page tool. For now, I&#39;ll just update dependencies and make sure all the tests pass, but a rewrite using a lighter framework like &lt;a href=&quot;https://alpinejs.dev/&quot;&gt;alpine.js&lt;/a&gt; would be a fun project.&lt;/p&gt;
+&lt;h3 id=&quot;action-items-1&quot; tabindex=&quot;-1&quot;&gt;Action Items &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Update out of date dependencies&lt;/li&gt;
+&lt;li&gt;Update node version to latest lts (v20)&lt;/li&gt;
+&lt;li&gt;Ensure all tests pass and it works as expected&lt;/li&gt;
+&lt;li&gt;Cut and deploy a new web release&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;plump&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/GTmmiller/plump&quot;&gt;Plump&lt;/a&gt; &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This distributed lock service was originally going to be part of a series of projects I did as a supplement to my grad school coursework. Turns out, map reduce is much easier to model than distributed locking! I wanted this to take 1 month, but three years, and two language changes later it was finally done. I want to keep this around as long as I can since I use it as a reference project for a lot of setup I do in Java projects like setting up Unit Testing, Checkstyle, and multiple modules.&lt;/p&gt;
+&lt;h3 id=&quot;action-items-2&quot; tabindex=&quot;-1&quot;&gt;Action Items &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Turn on Dependabot warning&lt;/li&gt;
+&lt;li&gt;Update any out of date dependencies&lt;/li&gt;
+&lt;li&gt;Cut a new updated release if needed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;brainf-inter&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://github.com/GTmmiller/brainf_inter&quot;&gt;brainf-inter&lt;/a&gt; &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;An interpreter of the &lt;a href=&quot;https://en.wikipedia.org/wiki/Brainfuck&quot;&gt;Brainfuck langauge&lt;/a&gt;. Though the name is a little crude, it&#39;s basically a simple language for representing a Turing machine.&lt;/p&gt;
+&lt;p&gt;I&#39;ve kept this project around because it&#39;s a fun blueprint for a javascript library that works on the browser and on Node at the same time. It&#39;s not very useful, but it&#39;s pretty lightweight and fun to keep around.&lt;/p&gt;
+&lt;h3 id=&quot;action-items-3&quot; tabindex=&quot;-1&quot;&gt;Action Items &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Update dependencies&lt;/li&gt;
+&lt;li&gt;make sure the latest lts verison of Node is called for&lt;/li&gt;
+&lt;li&gt;check if this is still best practice for a package for the browser and nodejs&lt;/li&gt;
+&lt;li&gt;Redeploy to npm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;archiving&quot; tabindex=&quot;-1&quot;&gt;Archiving &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I have a bunch of old projects that I don&#39;t want to maintain anymore, but I like to keep around for sentimental or other reasons.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;hex-game&lt;/strong&gt; - An incomplete implementation of the game &lt;a href=&quot;https://en.wikipedia.org/wiki/Hex_(board_game)&quot;&gt;Hex&lt;/a&gt;. I might revisit this in Godot as a simple game exercise.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;hde-twitter-like&lt;/strong&gt; - A twitter clone I made for an internship that I quite enjoyed. Not going to update this one any time soon, but I have some great memories from that internship. Checkout the &lt;a href=&quot;https://hennge.com/global/gip.html&quot;&gt;Hennge global internship program&lt;/a&gt; if you&#39;re interested in working and living in Tokyo for a bit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;pokego-evol-maximizer&lt;/strong&gt; - This was supposed to calculate the amount of pokemon you can transfer to maximize the number of pokemon you could evolve from the candy resulting from the transfer. This never quite worked correctly, but it gave me lot of valuable experience with numpy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;bankinator&lt;/strong&gt; - I made this application to sign into my bank account and pull information. The bank I wrote this for is now defunct and this was before the days of open banking apis. It doesn&#39;t work and I don&#39;t want to update it.&lt;/p&gt;
+&lt;h2 id=&quot;moving-forward&quot; tabindex=&quot;-1&quot;&gt;Moving Forward &lt;a class=&quot;header-anchor&quot; href=&quot;https://gtmmiller.github.io/code-blog/blog/githubcleanup/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;m excited to get cleaning and to move on to my next project! Next post should be next week detailing how the clean up went and I should get some time to start writing up the intro to the new project.&lt;/p&gt;
+&lt;p&gt;See you in the next post!&lt;/p&gt;
 </content>
 	</entry>
 </feed>
